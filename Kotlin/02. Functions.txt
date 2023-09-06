@@ -1,0 +1,24 @@
+package frizon.alexsandro.god
+
+fun printMassage (message: String): Unit {
+    println(message)
+}
+
+fun printMessageWithPrefix(message: String, prefix: String = "Super"){
+    println("[$prefix] $message")
+}
+
+fun sum (x: Int, y: Int): Int{
+    return x + y
+}
+
+fun multiplicacao (x: Int, y: Int) = x * y
+
+fun main (){
+    printMassage("Alexsandro")
+    printMessageWithPrefix("MR","Alex")
+    printMessageWithPrefix("Spark")
+    printMessageWithPrefix(prefix = "Log", message = "Hello")
+    println(sum(2,2))
+    println(multiplicacao(2,5))
+}
