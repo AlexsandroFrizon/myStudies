@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+* { margin:0; padding: 0; box-sizing: border-box; }
+
+body {
+    height: 100%;
+    min-height: 100vh;
+}
+
+#quadrado {
+    /* border-style: dotted;
+    border-width: 2px;
+    border-color: tomato;
+
+    border-top-color: aqua; */
+
+    border: double 3px blue;
+
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    outline-style: solid;
+    outline-color: tomato;
+    outline-width: 3px;
+
+    /* Altura e Largura */
+    /* height: 250px;
+    width: 250px; */
+
+    /* border-radius: 100%; */
+
+
+    /* Formatação de textos */
+    text-align: justify;
+
+    text-decoration-style: solid;
+    text-decoration-line: none;
+    text-decoration-color: blue;
+
+    text-transform: capitalize;
+    
+
+    /* Espaçamento */
+    /* letter-spacing: -2px;
+    word-spacing: 20px; */
+
+    text-indent: 40px;
+}
+
+.linha {
+    border: double 3px orange;
+}
+
+#sombra {
+    text-shadow: -1px 1px 10px tomato;
+    font-size: 0.875rem;
+    font-weight: 100;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-style: italic;
+}
+
+i { color:blue }
+
+a {
+    text-decoration: none;
+    padding: 6px;
+    border: outset 0px rgba(81, 141, 81, 1);
+    color: white;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 1px 1px 2px rgb(80,80,80);
+}
+
+a.verde {background-color: rgba(81, 141, 81, 1);}
+a.verde:hover {background-color: rgba(81, 141, 81, 0.85);}
+
+a.vermelho{background-color: rgba(150, 0, 0, 1);}
+a.vermelho:hover{background-color: rgba(150, 0, 0, 0.85);}
+
+a:link{ color: white; }
+a:visited { color: white; }
+a:hover { color: white; }
+a:active { color: white; background-color: rgba(223, 156, 11, 0.7); }
+
+

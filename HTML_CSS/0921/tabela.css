@@ -1,0 +1,81 @@
+td, th  {
+    border: solid 1px black
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    height: 50px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+td:last-child {
+    text-align: center;
+    width: 0;
+    white-space: nowrap;
+    padding: 0 10px;
+}
+
+td:first-child {
+    color: blue;
+    padding: 0 10px;
+}
+
+td:nth-child(2) {
+    color:red;
+    text-align: center;
+}
+
+tbody>tr:nth-child(2n) {
+    background-color: azure;
+}
+
+tbody>tr:nth-child(2n - 1) {
+    background-color: beige;
+}
+
+thead>tr {
+    background-color: aquamarine;
+}
+
+tbody>tr:hover {
+    background-color: coral;
+    cursor: pointer;
+}
+
+thead>tr>th{
+    padding: 10px;
+}
+
+tbody>tr:last-child>td {
+    border-bottom: dashed 1px black
+}
+
+button {
+    padding: 6px 8px;
+    font-size: 1.125rem;
+    border-radius: 6px;
+    border-width: 0;
+    color: white;
+    cursor: pointer;
+}
+
+td>button:first-child {
+    background-color: orange;
+}
+td>button:last-child {
+    background-color: red;
+}
+
+caption {
+    color: blue;
+    caption-side: bottom;
+    text-align: right;
+    /*margin: 10px 0 0;*/
+    margin-top: 10px;   
+    font-size: 2rem;
+}

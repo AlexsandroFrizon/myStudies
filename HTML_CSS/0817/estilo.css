@@ -1,0 +1,36 @@
+p{ color:blue }
+#quinto { color:green }
+/* .texto {color: orange} */
+span.texto {color: rgb(100, 119, 119) }
+#div, #b { color: pink }
+small span {color: blueviolet}
+small>span {color: blueviolet}
+
+li { color: blue }
+li ~ li { color: red }
+
+body {
+    background-color: chartreuse;
+    background-image: url('fundo2.jpg');
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: right 0px;
+}
+
+/* BOX MODEL */
+div#box {
+    color: orange;
+    border-style: dashed;
+    border-width: 2px 3px 4px 1px;
+    border-color: red;
+
+    border-top-style: solid;
+    border-left-style: double;
+    border-right-color: blue;
+    border-bottom-width: 5px;
+
+    padding: 20px;
+    margin: 50px;
+
+
+}

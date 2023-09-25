@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form action="destino-do-formulario">
+        <label for="nome">Nome</label>
+        <input id="nome" maxlength="15" value="Thyago" name="nome" type="text" placeholder="Entre com o seu nome">
+        <br>
+        <label for="nota">Nota</label>
+        <input id="nota" type="number" step="0.5" min="0" max="10" name="nota">
+        <br>
+        <label for="email">E-mail</label>
+        <input type="email" placeholder="Entre com o seu e-mail" name="email" id="email">
+        <br>
+        <label for="data">Data de Nascimento</label>
+        <input type="date" value="1987-10-17" name="data" id="data">
+        <br>
+        <label for="cor">Cor</label>
+        <input type="color" name="cor" id="cor">
+        <br>
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha">
+        <br>
+        <label for="volume">Volume</label>
+        <input type="range" min="0" step="1" max="10" name="volume" id="volume">
+        <br>
+        <label for="hora">Hora</label>
+        <input type="time" name="hora" id="hora">
+        <br>
+        <label for="arquivo">Arquivo</label>
+        <input type="file" name="arquivo" id="arquivo">
+
+        <input type="hidden" name="endereco" value="2">
+        
+        <br>
+        <input checked  type="radio" name="aceito" value="S" id="sim"> <label for="sim">Sim</label>
+        <input checked type="radio" name="aceito" value="N" id="nao"> <label for="nao">Não</label>
+        <br>
+        <input checked type="checkbox" name="turno[]" value="M" id="M"> <label for="M">Manhã</label>
+        <input checked type="checkbox" name="turno[]" value="T" id="T"> <label for="T">Tarde</label>
+        <input type="checkbox" name="turno[]" value="N" id="N"> <label for="N">Noite</label>
+        <br>
+        <label for="descricao">Descrição</label><br>
+        <textarea cols="25" rows="10" name="descricao" id="descricao">valor inicial</textarea>
+        <br/>
+        <label for="estado">Estado</label>
+        <select name="estado" id="estado" multiple>
+            <option value="-1">Selecione um estado</option>
+            <option selected value="RS">Rio Grande do Sul</option>
+            <option disabled value="SP">São Paulo</option>
+            <option selected value="RJ">Rio de Janeiro</option>
+        </select>
+
+        <input type="button" value="Enviar"/>
+        <button type="reset">Limpar</button>
+        <button type="button">Botão simples</button>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
