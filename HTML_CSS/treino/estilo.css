@@ -1,0 +1,42 @@
+/** {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}*/
+
+/*p {
+	color: white;
+	background-color: black;
+	font-size: 25px;
+	font-family: "sans-serif;" "consolas";
+}*/
+
+p {
+	border-style: solid;
+	border-width: 12px;
+	border-radius: 5px;
+	border-color: yellow;
+}
+
+body {
+	background-image: url("foto01.jpg");
+/*	background: linear-gradient(white,blue);*/
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+a:hover {
+	color: red;
+	background-color: yellow;
+}
+
+a:visited {
+
+	color: blue;
+}
+
+a {
+	border: 5px solid;
+	border-radius: 2;
+	background-color: orange;
+}
